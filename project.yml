@@ -1,0 +1,32 @@
+name: WalkoutDJ
+options:
+  bundleIdPrefix: com.walkoutdj
+  deploymentTarget:
+    iOS: "18.0"
+  xcodeVersion: "26.3"
+settings:
+  SWIFT_VERSION: "6"
+  SWIFT_STRICT_CONCURRENCY: complete
+  DEVELOPMENT_TEAM: "3JL5F3BK8A"
+  CODE_SIGN_IDENTITY: "Apple Development"
+  CODE_SIGN_STYLE: Automatic
+targets:
+  WalkoutDJ:
+    type: application
+    platform: iOS
+    sources:
+      - WalkoutDJ
+    info:
+      path: WalkoutDJ/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UIRequiresFullScreen: true
+        CFBundleDisplayName: HypeDeck
+        UIFileSharingEnabled: true
+        LSSupportsOpeningDocumentsInPlace: true
+        LSApplicationQueriesSchemes:
+          - spotify

@@ -1,0 +1,55 @@
+# Xcode
+#
+# Generated project (XcodeGen owns project.yml as source of truth)
+WalkoutDJ.xcodeproj/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Build output
+build/
+build_*/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+
+# Xcode workspaces (regenerated)
+*.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods (if ever added)
+Pods/
+
+# Carthage (if ever added)
+Carthage/Build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.pem
+
+# Secrets / signing
+.env*.local
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.jks
+*.certSigningRequest
+
+# Editor / tooling
+.claude/worktrees/
