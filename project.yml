@@ -15,9 +15,9 @@ targets:
     type: application
     platform: iOS
     sources:
-      - WalkoutDJ
+      - Sources
     info:
-      path: WalkoutDJ/Info.plist
+      path: Sources/Info.plist
       properties:
         UILaunchScreen: {}
         UISupportedInterfaceOrientations:
